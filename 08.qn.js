@@ -37,30 +37,6 @@ rl.on("line", (input) => {
   }
 });
 
-// import { createServer } from "http";
-// const PORT = 5000;
-
-// const server = createServer((req, res) => {
-//   res.writeHead(200, { "Content-Type": "text/plain" });
-//   res.end("Hello World");
-// });
-
-// server.listen(PORT, () => {
-//   console.log(`Server running at PORT ${PORT}`);
-// });
-
-// function to add employees
-// let employees = [];
-// function addEmployee(employee) {
-//   employees.push(employee);
-//   console.log(employees);
-// }
-
-// function readEmployee(query) {
-//   return new Promise(resolve => {
-//     rl.question(query, resolve);
-//   });
-// }
 
 // function readInput() {
 //   rl.question("Enter a choice: ", (ch) => {
